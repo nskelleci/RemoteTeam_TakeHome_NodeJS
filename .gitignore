@@ -1,0 +1,5 @@
+node_modules/
+build/
+src/data/sampleData.json
+**/data/sampleData
+**/data
