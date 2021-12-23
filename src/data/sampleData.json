@@ -1,0 +1,18 @@
+{
+    "platformCredentials" : [
+        {
+            "platformId":0,
+            "platformName": "gitlab",
+            "platformPrefix" :"gtl",
+            "login" : "<gitlabUsername>",
+            "token" : "<gitlab_personal_token>"      
+         },
+         {
+            "platformId":1,
+            "platformName": "github",
+            "platformPrefix" :"gth",
+            "login" : "<githubUsername>",
+            "token" : "<github_personal_token>"      
+         }
+    ]
+}
