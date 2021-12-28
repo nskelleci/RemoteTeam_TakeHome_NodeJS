@@ -1,5 +1,5 @@
 import express, {Application, Request, Response} from 'express';
-import data from './data/sampleData.json'
+import data from './data/Data.json'
 import credentials from './vars/credentials';
 import platformController from './controllers/platformController';
 
