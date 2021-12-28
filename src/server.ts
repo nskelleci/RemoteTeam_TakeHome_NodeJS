@@ -13,7 +13,7 @@ app.listen(PORT, ()=>{
 })
 
 app.use(express.json())
-const platformCredentials: credentials = data.platformCredentials[0]
+const platformCredentials: credentials = data.platformCredentials[1]
 
 //REFACTORING NEEDED
 app.get('/',(req:Request, res:Response)=>{
