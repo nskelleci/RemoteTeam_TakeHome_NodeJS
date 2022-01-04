@@ -5,14 +5,21 @@
             "platformName": "gitlab",
             "platformPrefix" :"gtl",
             "login" : "<gitlabUsername>",
-            "token" : "<gitlab_personal_token>"      
+            "token" : "Bearer <gitlab_personal_token>"      
          },
          {
             "platformId":1,
             "platformName": "github",
             "platformPrefix" :"gth",
             "login" : "<githubUsername>",
-            "token" : "<github_personal_token>"      
+            "token" : "Bearer <github_personal_token>"      
+         },
+         {
+            "platformId":2,
+            "platformName": "bugsnag",
+            "platformPrefix" :"bgs",
+            "login" : "<bugsnagUsername>",
+            "token" : "token <bugsnag_personal_token>"      
          }
     ]
 }

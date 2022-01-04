@@ -49,7 +49,6 @@ class gitlabProcessor implements IPlatformProcessor {
 
     async addMember(groupId:String|number, memberDetail: {username:string, access_level:number}){
            //refactoring needed
-         
             const member = await this.findMember(memberDetail.username)
             if(!member.data.length){
                 let result = {data:[], statusText:'user doesnt exist', status:400}

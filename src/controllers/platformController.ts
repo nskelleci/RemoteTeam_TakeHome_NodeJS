@@ -13,6 +13,7 @@ export default class platformController {
         this._processor = _processorFactory.createProcessor()
         this._customResponse = new customResponse()
     }
+    
 
     async getApps() {
         const result = await this._processor.getApps()
